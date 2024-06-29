@@ -1,0 +1,97 @@
+# Laravel
+/vendor
+/node_modules
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage
+
+# Laravel 5 & 6 specific
+public/storage
+public/hot
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+.env.backup
+
+# Laravel 7 & 8 specific
+.env.testing
+
+# Environment variables
+.env.*.local
+
+# Log files
+/storage/logs/*.log
+
+# Composer dependencies
+/vendor
+/vendor/
+/composer.lock
+
+# NPM packages
+/node_modules/
+/package-lock.json
+/pnpm-lock.yaml
+/yarn.lock
+
+# Laravel Mix files
+/public/hot
+/public/mix-manifest.json
+/public/css/*.map
+/public/js/*.map
+
+# Vagrant
+/.vagrant
+
+# PHPStorm
+/.idea
+
+# Laravel IDE Helper
+/_ide_helper.php
+/_ide_helper_models.php
+
+# Redis lock files
+*.redis
+
+# Front-end assets
+/public/css
+/public/js
+/public/mix-manifest.json
+/public/hot
+/public/storage
+
+# Cache
+/cache/*
+/tmp/*
+
+# PHPUnit
+.phpunit.result.cache
+
+# Compiled files
+/public/build
+
+# Debugbar storage
+/storage/debugbar
+
+# Telescope cache
+/storage/telescope
+
+# Sentry assets
+/storage/sentry
+
+# Laravel Valet
+.valet
+
+# Local environment files
+.env.local
+.env.development
+.env.testing
+.env.production
+.env.example
+
+# Other files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
